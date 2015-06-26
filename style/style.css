@@ -1,0 +1,58 @@
+.table{
+	/*margin: 120px;*/
+	width:80%;
+	margin: 0 auto; 
+
+}
+h2{
+	text-align: center;
+}
+table.kaoyan th, td{
+	text-align: center;
+}
+input[name="time"]{
+}
+.save,.cancel{
+	display: none;
+}
+td.time,td.operation,td.credits{
+	width: 110px;
+}
+td.upload_id{
+	width: 110px;
+}
+td.title{
+	width: 230px;
+}
+td.id{
+	display: none;
+}
+td{
+	/*line-height: 50px;*/
+	/*vertical-align: middle;*/
+	/*text-align: middle;*/
+}
+tbody tr{
+	/*line-height: 50px;*/
+	height: 50px;
+}
+input[name='credits']{
+	width: 100px;
+	height: 40px;
+
+}
+input[name='title']{
+	width: 215px;
+	height: 40px;
+
+}
+input[name='describe']{
+	width: 400px;
+	height: 40px;
+}
+a.save,a.cancel{
+	padding:3px 5px; 
+}
+.modal-content {
+  width: 84%;
+}
